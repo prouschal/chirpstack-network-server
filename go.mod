@@ -2,6 +2,8 @@ module github.com/brocaar/chirpstack-network-server/v3
 
 go 1.16
 
+replace github.com/brocaar/lorawan => github.com/prouschal/lorawan v0.0.0-20220303120017-b8599ea04886
+
 require (
 	cloud.google.com/go/pubsub v1.3.1
 	github.com/Azure/azure-amqp-common-go v1.1.4
